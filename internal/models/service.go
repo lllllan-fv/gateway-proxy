@@ -3,9 +3,12 @@ package models
 import "time"
 
 const (
-	HttpLoadType = iota + 1
-	TcpLoadType
-	GrpcLoadType
+	HttpLoadType = 1
+	TcpLoadType  = 2
+	GrpcLoadType = 3
+
+	PrefixURLHTTPRuleType = 0
+	DomainHTTPRuleType    = 1
 )
 
 type GatewayServiceInfo struct {
