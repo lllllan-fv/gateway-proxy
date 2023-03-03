@@ -1,0 +1,10 @@
+[app]
+    env = 'production'
+    mode = 'debug'
+    port = 30001
+
+[mysql]
+    addr = 'localhost:3307'
+    user = 'lllllan'
+    db_name = 'xinyoudui'
+    #password = '12345678'
