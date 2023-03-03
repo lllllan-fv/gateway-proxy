@@ -3,7 +3,7 @@ package conf
 import (
 	"flag"
 
-	"github.com/lllllan-fv/gateway-api/public/conf"
+	"github.com/lllllan-fv/gateway-proxy/public/conf"
 )
 
 type Config struct {

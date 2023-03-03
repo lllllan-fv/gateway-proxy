@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/lllllan-fv/gateway-api/public/conf"
+	"github.com/lllllan-fv/gateway-proxy/public/conf"
 )
 
 func TestInitModule(t *testing.T) {
